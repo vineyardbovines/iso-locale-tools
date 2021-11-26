@@ -1,6 +1,6 @@
 {
   "name": "@locale-tools/navigation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Navigational tools",
   "main": "dist/index.js",
   "module": "dist/navigation.esm.js",
@@ -30,7 +30,7 @@
     "prepublish": "yarn run build"
   },
   "devDependencies": {
-    "@locale-tools/localization": "^0.1.0"
+    "@locale-tools/localization": "^0.2.0"
   },
   "publishConfig": {
     "access": "public"

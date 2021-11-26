@@ -1,6 +1,6 @@
 {
   "name": "@locale-tools/languages",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "World languages data",
   "main": "dist/index.js",
   "module": "dist/languages.esm.js",

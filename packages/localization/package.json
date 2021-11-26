@@ -1,6 +1,6 @@
 {
   "name": "@locale-tools/localization",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Localization and internationalization tools",
   "main": "dist/index.js",
   "module": "dist/localization.esm.js",
@@ -33,8 +33,8 @@
     "react-native": "^0.66.3"
   },
   "devDependencies": {
-    "@locale-tools/datetime": "^0.1.0",
-    "@locale-tools/languages": "^0.1.0",
+    "@locale-tools/datetime": "^0.2.0",
+    "@locale-tools/languages": "^0.2.0",
     "@react-native-async-storage/async-storage": "^1.15.13",
     "date-fns": "^2.26.0",
     "date-fns-tz": "^1.1.6",

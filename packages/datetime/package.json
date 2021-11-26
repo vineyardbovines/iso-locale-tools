@@ -1,6 +1,6 @@
 {
   "name": "@locale-tools/datetime",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Datetime localization tools",
   "main": "dist/index.js",
   "module": "dist/datetime.esm.js",
@@ -32,7 +32,7 @@
     "prepublish": "yarn run build"
   },
   "devDependencies": {
-    "@locale-tools/languages": "^0.1.0",
+    "@locale-tools/languages": "^0.2.0",
     "date-fns": "^2.26.0",
     "date-fns-tz": "^1.1.6"
   },
