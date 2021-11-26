@@ -8,8 +8,8 @@ All world countries, ISO- codes and data points about them, as well as tools for
 | [`@iso-locale-tools/currency`](./src/packages/currency) | Currencies list and conversion tool |
 | [`@iso-locale-tools/currency`](./src/packages/datetime) | World timezones and datetime tools |
 | [`@iso-locale-tools/languages`](./src/packages/languages) | Languages list |
-| [`@iso-locale-tools/languages`](./src/packages/localization) | Localization and i18n tools |
-| [`@iso-locale-tools/languages`](./src/packages/navigation) | Navigational tools |
+| [`@iso-locale-tools/localization`](./src/packages/localization) | Localization and i18n tools |
+| [`@iso-locale-tools/navigation`](./src/packages/navigation) | Navigational tools |
 
 ## Acknowledgements
 
