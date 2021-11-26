@@ -2,6 +2,16 @@
 
 List of all currencies and a currency conversion tool.
 
+## Installation
+
+Install a given package with npm or yarn.
+
+```bash
+npm install @iso-locale-tools/countries
+
+yarn add @iso-locale-tools/countries
+```
+
 ## Usage
 
 A full list of all circulated currencies can be found in `src/data/currencies.json`.

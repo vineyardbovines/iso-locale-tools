@@ -2,6 +2,16 @@
 
 World countries
 
+## Installation
+
+Install a given package with npm or yarn.
+
+```bash
+npm install @iso-locale-tools/countries
+
+yarn add @iso-locale-tools/countries
+```
+
 ## Usage
 
 There are 2 exports of the countries list, full and truncated (see above).

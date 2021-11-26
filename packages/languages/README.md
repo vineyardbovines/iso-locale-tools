@@ -2,6 +2,16 @@
 
 List of all languages.
 
+## Installation
+
+Install a given package with npm or yarn.
+
+```bash
+npm install @iso-locale-tools/countries
+
+yarn add @iso-locale-tools/countries
+```
+
 ## Usage
 
 A full list of all documented languages can be found in `src/data/languages.json`.

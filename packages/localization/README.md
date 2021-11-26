@@ -2,6 +2,16 @@
 
 Localization and internationalization tools.
 
+## Installation
+
+Install a given package with npm or yarn.
+
+```bash
+npm install @iso-locale-tools/countries
+
+yarn add @iso-locale-tools/countries
+```
+
 ## Usage
 
 ### Types
