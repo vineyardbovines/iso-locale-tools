@@ -1,0 +1,31 @@
+{
+  "extends": "./tsconfig.build.json",
+  "include": [
+    "packages",
+    "types",
+    "scripts"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/bluetooth": [
+        "packages/countries/src"
+      ],
+      "~/currency": [
+        "packages/currency/src"
+      ],
+      "~/datetime": [
+        "packages/datetime/src"
+      ],
+      "~/languages": [
+        "packages/languages/src"
+      ],
+      "~/localization": [
+        "packages/localization/src"
+      ],
+      "~/navigation": [
+        "packages/navigation/src"
+      ]
+    }
+  }
+}

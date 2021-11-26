@@ -1,0 +1,42 @@
+{
+  "name": "@iso-locale-tools/datetime",
+  "version": "0.1.0",
+  "description": "Datetime localization tools",
+  "main": "dist/index.js",
+  "module": "dist/datetime.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Sara Pope <sarafpope@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretzky/iso-locale-tools.git",
+    "directory": "packages/datetime"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "timezones",
+    "tz-timezones",
+    "date-fns",
+    "date-fns-tz",
+    "tz",
+    "tz-database"
+  ],
+  "scripts": {
+    "build": "tsdx build --tsconfig tsconfig.build.json",
+    "lint": "tsdx lint",
+    "prepublish": "yarn run build"
+  },
+  "devDependencies": {
+    "@iso-locale-tools/languages": "^0.1.0",
+    "date-fns": "^2.26.0",
+    "date-fns-tz": "^1.1.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

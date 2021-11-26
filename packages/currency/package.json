@@ -1,0 +1,38 @@
+{
+  "name": "@iso-locale-tools/currency",
+  "version": "0.1.0",
+  "description": "World currency data",
+  "main": "dist/index.js",
+  "module": "dist/currency.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Sara Pope <sarafpope@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretzky/iso-locale-tools.git",
+    "directory": "packages/currency"
+  },
+  "keywords": [
+    "currency",
+    "currencies",
+    "world",
+    "json",
+    "iso-4127",
+    "currency conversion"
+  ],
+  "scripts": {
+    "build": "tsdx build --tsconfig tsconfig.build.json",
+    "lint": "tsdx lint",
+    "prepublish": "yarn run build"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

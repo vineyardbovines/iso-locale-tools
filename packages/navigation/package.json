@@ -1,0 +1,38 @@
+{
+  "name": "@iso-locale-tools/navigation",
+  "version": "0.1.0",
+  "description": "Navigational tools",
+  "main": "dist/index.js",
+  "module": "dist/navigation.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Sara Pope <sarafpope@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretzky/iso-locale-tools.git",
+    "directory": "packages/navigation"
+  },
+  "keywords": [
+    "navigation",
+    "geography",
+    "compass",
+    "rhumb line",
+    "bearings",
+    "directions"
+  ],
+  "scripts": {
+    "build": "tsdx build --tsconfig tsconfig.build.json",
+    "lint": "tsdx lint",
+    "prepublish": "yarn run build"
+  },
+  "devDependencies": {
+    "@iso-locale-tools/localization": "^0.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

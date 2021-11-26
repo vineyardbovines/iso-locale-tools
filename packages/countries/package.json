@@ -1,0 +1,55 @@
+{
+  "name": "@iso-locale-tools/countries",
+  "version": "0.1.0",
+  "description": "Countries of the world and relational data",
+  "main": "dist/index.js",
+  "module": "dist/countries.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Sara Pope <sarafpope@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretzky/iso-locale-tools.git",
+    "directory": "packages/countries"
+  },
+  "keywords": [
+    "countries",
+    "world countries",
+    "world",
+    "json",
+    "iso-3166",
+    "iso-3166-1",
+    "iso-3166-2",
+    "geography",
+    "tld",
+    "ioc",
+    "idd"
+  ],
+  "scripts": {
+    "build": "tsdx build --tsconfig tsconfig.build.json",
+    "lint": "tsdx lint",
+    "prepublish": "yarn run build"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native": "^0.66.3"
+  },
+  "devDependencies": {
+    "@iso-locale-tools/currency": "^0.1.0",
+    "@iso-locale-tools/languages": "^0.1.0",
+    "@iso-locale-tools/localization": "^0.1.0",
+    "type-fest": "^2.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@iso-locale-tools/currency": "^0.1.0",
+    "@iso-locale-tools/languages": "^0.1.0"
+  }
+}

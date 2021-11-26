@@ -1,0 +1,15 @@
+# https://editorconfig.org
+
+# top-most editorconfig file
+root = true
+
+# unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+# language-specific formatting
+[*.{ts,tsx,.swift}]
+indent_size = 2
+indent_style = space

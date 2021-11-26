@@ -1,0 +1,37 @@
+{
+  "name": "@iso-locale-tools/languages",
+  "version": "0.1.0",
+  "description": "World languages data",
+  "main": "dist/index.js",
+  "module": "dist/languages.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Sara Pope <sarafpope@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretzky/iso-locale-tools.git",
+    "directory": "packages/languages"
+  },
+  "keywords": [
+    "languages",
+    "world languages",
+    "iso-639",
+    "iso-639-3",
+    "ietf",
+    "iso-15924",
+    "iana",
+    "bcp47"
+  ],
+  "scripts": {
+    "build": "tsdx build --tsconfig tsconfig.build.json",
+    "lint": "tsdx lint",
+    "prepublish": "yarn run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
