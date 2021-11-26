@@ -1,4 +1,4 @@
-# @iso-locale-tools/currenci
+# @locale-tools/datetime
 
 List of all currencies and a currency conversion tool.
 
@@ -7,9 +7,9 @@ List of all currencies and a currency conversion tool.
 Install a given package with npm or yarn.
 
 ```bash
-npm install @iso-locale-tools/countries
+npm install @locale-tools/datetime
 
-yarn add @iso-locale-tools/countries
+yarn add @locale-tools/datetime
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ yarn add @iso-locale-tools/countries
 A full list of tz database timezones can be found in `src/data/timezones.json`
 
 ```ts
-import { timezones } from "iso-locale-tools";
+import { timezones } from "@locale-tools/datetime";
 ```
 
 ### Types
@@ -66,7 +66,7 @@ Returns a [date-fns locale object](https://date-fns.org/v2.25.0/docs/Locale) to 
 | fallbackLocale | `IETF` | Fallback IETF locale if no date-fns match found | `en-US`      |
 
 ```ts
-import { getDateFnsLocale } from "iso-locale-tools";
+import { getDateFnsLocale } from "@locale-tools/datetime";
 
 const dateFnsLocaleDirect = getDateFnsLocale("en-AU"); // en-AU locale object
 
@@ -88,7 +88,7 @@ Returns the date format pattern (e.g. 'dd-MM-yyyy') for a given IETF locale.
 | locale    | `IETF` | IETF locale to get the pattern for | **Required** |
 
 ```ts
-import { getDatePatternForLocale } from "iso-locale-tools";
+import { getDatePatternForLocale } from "@locale-tools/datetime";
 
 const datePattern = getDatePatternForLocale("nl-AW"); // returns "dd-MM-yyyy"
 ```
@@ -105,7 +105,7 @@ Returns a date formatted and converted to a given timezone.
 | serverTimezone | `TZTimezone`           | Timezone to compare against | `UTC`        |
 
 ```ts
-import { getDateTimeForTimezone } from "iso-locale-tools";
+import { getDateTimeForTimezone } from "@locale-tools/datetime";
 
 const dateTimeInTimezone = getDateTimeForTimezone({
   date: 1636911831222,

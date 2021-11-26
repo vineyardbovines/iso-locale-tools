@@ -1,5 +1,5 @@
 {
-  "name": "@iso-locale-tools/localization",
+  "name": "@locale-tools/localization",
   "version": "0.1.0",
   "description": "Localization and internationalization tools",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gretzky/iso-locale-tools.git",
+    "url": "git+https://github.com/gretzky/locale-tools.git",
     "directory": "packages/localization"
   },
   "keywords": [
@@ -33,8 +33,8 @@
     "react-native": "^0.66.3"
   },
   "devDependencies": {
-    "@iso-locale-tools/datetime": "^0.1.0",
-    "@iso-locale-tools/languages": "^0.1.0",
+    "@locale-tools/datetime": "^0.1.0",
+    "@locale-tools/languages": "^0.1.0",
     "@react-native-async-storage/async-storage": "^1.15.13",
     "date-fns": "^2.26.0",
     "date-fns-tz": "^1.1.6",
@@ -44,5 +44,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "5b8a2039686685e85bf5c9fa726c2c4a55d66626"
 }

@@ -1,4 +1,4 @@
-# @iso-locale-tools/currency
+# @locale-tools/currency
 
 List of all currencies and a currency conversion tool.
 
@@ -7,9 +7,9 @@ List of all currencies and a currency conversion tool.
 Install a given package with npm or yarn.
 
 ```bash
-npm install @iso-locale-tools/countries
+npm install @locale-tools/currency
 
-yarn add @iso-locale-tools/countries
+yarn add @locale-tools/currency
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ yarn add @iso-locale-tools/countries
 A full list of all circulated currencies can be found in `src/data/currencies.json`.
 
 ```ts
-import { currencies } from "iso-locale-tools";
+import { currencies } from "@locale-tools/currency";
 ```
 
 ### Types
@@ -67,7 +67,7 @@ Returns the conversion rate between 2 currencies. Returns an error if one is enc
 | to        | `ISO4217` | The ISO4217 currency code to convert to   | **Required** |
 
 ```ts
-import { getConversionRate, ISO4217 } from "iso-locale-tools";
+import { getConversionRate, ISO4217 } from "@locale-tools/currency";
 
 // returns the conversion rate from us dollar to euro
 const conversionRate = getConversionRate({

@@ -1,4 +1,4 @@
-# @iso-locale-tools/languages
+# @locale-tools/languages
 
 List of all languages.
 
@@ -7,9 +7,9 @@ List of all languages.
 Install a given package with npm or yarn.
 
 ```bash
-npm install @iso-locale-tools/countries
+npm install @locale-tools/languages
 
-yarn add @iso-locale-tools/countries
+yarn add @locale-tools/languages
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ yarn add @iso-locale-tools/countries
 A full list of all documented languages can be found in `src/data/languages.json`.
 
 ```ts
-import { languages } from "iso-locale-tools";
+import { languages } from "@locale-tools/languages";
 ```
 
 ### Types

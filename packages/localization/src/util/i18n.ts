@@ -1,6 +1,6 @@
 import i18next, { BackendModule, LanguageDetectorAsyncModule, ReadCallback, TFunction } from "i18next";
 import { initReactI18next } from "react-i18next";
-import { getDateFnsLocale, getDateFormatPatternForLocale, DateFnsLocale } from "@iso-locale-tools/datetime";
+import { getDateFnsLocale, getDateFormatPatternForLocale, DateFnsLocale } from "@locale-tools/datetime";
 import * as Localization from 'expo-localization'
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { format as dateTimeFormat } from 'date-fns-tz'

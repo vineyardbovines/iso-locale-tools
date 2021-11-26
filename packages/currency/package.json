@@ -1,5 +1,5 @@
 {
-  "name": "@iso-locale-tools/currency",
+  "name": "@locale-tools/currency",
   "version": "0.1.0",
   "description": "World currency data",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gretzky/iso-locale-tools.git",
+    "url": "git+https://github.com/gretzky/locale-tools.git",
     "directory": "packages/currency"
   },
   "keywords": [
@@ -34,5 +34,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "5b8a2039686685e85bf5c9fa726c2c4a55d66626"
 }

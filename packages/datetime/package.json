@@ -1,5 +1,5 @@
 {
-  "name": "@iso-locale-tools/datetime",
+  "name": "@locale-tools/datetime",
   "version": "0.1.0",
   "description": "Datetime localization tools",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gretzky/iso-locale-tools.git",
+    "url": "git+https://github.com/gretzky/locale-tools.git",
     "directory": "packages/datetime"
   },
   "keywords": [
@@ -32,11 +32,12 @@
     "prepublish": "yarn run build"
   },
   "devDependencies": {
-    "@iso-locale-tools/languages": "^0.1.0",
+    "@locale-tools/languages": "^0.1.0",
     "date-fns": "^2.26.0",
     "date-fns-tz": "^1.1.6"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "5b8a2039686685e85bf5c9fa726c2c4a55d66626"
 }

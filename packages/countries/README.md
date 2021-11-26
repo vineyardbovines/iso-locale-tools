@@ -1,4 +1,4 @@
-# @iso-locale-tools/countries
+# @locale-tools/countries
 
 World countries
 
@@ -7,9 +7,9 @@ World countries
 Install a given package with npm or yarn.
 
 ```bash
-npm install @iso-locale-tools/countries
+npm install @locale-tools/countries
 
-yarn add @iso-locale-tools/countries
+yarn add @locale-tools/countries
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ There are 2 exports of the countries list, full and truncated (see above).
 import {
   countriesExpanded, // full list
   countries // truncated list
-} from "iso-locale-tools";
+} from "@locale-tools/countries";
 ```
 
 The full JSON array of all world countries and information about them lives in the [`countries-expanded`](./src/data/countries-expanded.json).
@@ -244,7 +244,7 @@ Subregions.australia_new_zealand; // "Australia and New Zealand"
 
 ### Methods
 
-#### `getCountryNameKey(name: string): CountryKey`**
+#### `getCountryNameKey(name: string): CountryKey`
 
 Country enum keys are 'simplified' versions of country names, e.g. 'Saint Vincent and the Grenadines' becomes 'st_vincent_grenadines'.
 
@@ -253,7 +253,7 @@ Country enum keys are 'simplified' versions of country names, e.g. 'Saint Vincen
 | name      | `string` | The country name to get the key for | **Required** |
 
 ```ts
-import { getCountryKey, ISO3166_1_Alpha2ByCountry } from "iso-locale-tools";
+import { getCountryKey, ISO3166_1_Alpha2ByCountry } from "@locale-tools/countries";
 
 const countryKey1 = getCountryKey("Aruba"); // aruba
 

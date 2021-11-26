@@ -1,4 +1,4 @@
-# @iso-locale-tools/navigation
+# @locale-tools/navigation
 
 Navigational tools.
 
@@ -7,9 +7,9 @@ Navigational tools.
 Install a given package with npm or yarn.
 
 ```bash
-npm install @iso-locale-tools/countries
+npm install @locale-tools/navigation
 
-yarn add @iso-locale-tools/countries
+yarn add @locale-tools/navigation
 ```
 
 ## Usage
@@ -58,7 +58,7 @@ Converts a bearing to a given compass direction. Throws an error if bearing is n
 | compassPoints | `CompassRose` | Number of compass points to use | `CompassRose.CLASSICAL` |
 
 ```ts
-import { bearingToDirection, CompassRose } from "iso-locale-tools";
+import { bearingToDirection, CompassRose } from "@locale-tools/navigation";
 
 const bearing = 243.62;
 
@@ -80,7 +80,7 @@ Returns the coordinate center of a list of coordinates.
 | coordinates | `Coordinates[]` | List of coordinate objets | **Required** |
 
 ```ts
-import { getCenterOfCoordinates } from "iso-locale-tools";
+import { getCenterOfCoordinates } from "@locale-tools/navigation";
 
 const center = getCenterOfCoordinates([
   { latitude: 12.5, longitude: -69.9 },
@@ -99,7 +99,7 @@ Returns a [rhumb line](https://en.wikipedia.org/wiki/Rhumb_line) between 2 longi
 | to         | `number` | ending longitude   | **Required** |
 
 ```ts
-import { getRhumbLine } from "iso-locale-tools";
+import { getRhumbLine } from "@locale-tools/navigation";
 
 const rhumbLine = getRhumbLine({from: -69.9, to: 5.75});
 // returns 1.3203415791337105
@@ -117,7 +117,7 @@ Returns the [great-circle distance](https://en.wikipedia.org/wiki/Great-circle_d
 | useRhumbLine | `boolean`      | whether or not to use a rhumb line     | `false`      |
 
 ```ts
-import { geographicDistanceTo } from "iso-locale-tools";
+import { geographicDistanceTo } from "@locale-tools/navigation";
 
 const distance = geographicDistanceTo({
   from: location1,
@@ -146,7 +146,7 @@ Returns the initial bearing from start point to the destination point and the fi
 | useRhumbLine | `boolean`     | whether or not to use a rhumb line | `false`      |
 
 ```ts
-import { bearingDistanceTo } from "iso-locale-tools";
+import { bearingDistanceTo } from "@locale-tools/navigation";
 
 const bearing = bearingDistanceTo({ from: location1, to: location2 });
 // returns { initialBearing: 51.51700060782139, finalBearing: 231.5170006078214 }

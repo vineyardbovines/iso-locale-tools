@@ -1,4 +1,4 @@
-import { DistanceUnit } from "@iso-locale-tools/localization";
+import { DistanceUnit } from "@locale-tools/localization";
 
 export function convertDistance(
   distance: number,

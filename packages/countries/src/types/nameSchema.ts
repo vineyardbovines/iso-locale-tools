@@ -1,4 +1,4 @@
-import { ISO639_3 } from "@iso-locale-tools/languages"
+import { ISO639_3 } from "@locale-tools/languages"
 
 export type ShortNameSchema = {
   common: string;

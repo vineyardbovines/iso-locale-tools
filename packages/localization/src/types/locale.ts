@@ -1,5 +1,5 @@
-import { IETF } from "@iso-locale-tools/languages";
-import { Timezones, Timezone, HourClock, WeekStartDay } from "@iso-locale-tools/datetime"
+import { IETF } from "@locale-tools/languages";
+import { Timezones, Timezone, HourClock, WeekStartDay } from "@locale-tools/datetime"
 import { DrivingSide } from "./drivingSide";
 import { MeasurementSystem } from "./measurementSystem";
 import { TemperatureUnit } from "./temperatureUnit";

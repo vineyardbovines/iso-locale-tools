@@ -1,4 +1,4 @@
-# @iso-locale-tools/localization
+# @locale-tools/localization
 
 Localization and internationalization tools.
 
@@ -7,9 +7,9 @@ Localization and internationalization tools.
 Install a given package with npm or yarn.
 
 ```bash
-npm install @iso-locale-tools/countries
+npm install @locale-tools/localization
 
-yarn add @iso-locale-tools/countries
+yarn add @locale-tools/localization
 ```
 
 ## Usage
@@ -71,7 +71,7 @@ export type SupportedLocale = {
 
 #### `buildI18n({ supportedLanguages, namespaces, defaultNamespace, fallbackLanguage, languageStorageKey, errorCallback }): I18nInstance`
 
-Builds an instance of [i18next]() to use in an application for translations.
+Builds an instance of [i18next](https://www.i18next.com) to use in an application for translations.
 
 | Parameters | Type | Description | Default |
 | -- |
@@ -87,8 +87,8 @@ To use, you will need to install `i18next` and `react-i18next` into your applica
 **i18n.ts** - this file can be anywhere in your app
 
 ```ts
-import { buildI18n } from "@iso-locale-tools/localization";
-import { IETF } from "@iso-locale-tools/languages";
+import { buildI18n } from "@locale-tools/localization";
+import { IETF } from "@locale-tools/languages";
 import enTranslation from "./en.json"; // your local translation file
 
 const supportedLanguages = [

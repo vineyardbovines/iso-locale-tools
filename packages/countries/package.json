@@ -1,5 +1,5 @@
 {
-  "name": "@iso-locale-tools/countries",
+  "name": "@locale-tools/countries",
   "version": "0.1.0",
   "description": "Countries of the world and relational data",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gretzky/iso-locale-tools.git",
+    "url": "git+https://github.com/gretzky/locale-tools.git",
     "directory": "packages/countries"
   },
   "keywords": [
@@ -40,16 +40,17 @@
     "react-native": "^0.66.3"
   },
   "devDependencies": {
-    "@iso-locale-tools/currency": "^0.1.0",
-    "@iso-locale-tools/languages": "^0.1.0",
-    "@iso-locale-tools/localization": "^0.1.0",
+    "@locale-tools/currency": "^0.1.0",
+    "@locale-tools/languages": "^0.1.0",
+    "@locale-tools/localization": "^0.1.0",
     "type-fest": "^2.5.1"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@iso-locale-tools/currency": "^0.1.0",
-    "@iso-locale-tools/languages": "^0.1.0"
-  }
+    "@locale-tools/currency": "^0.1.0",
+    "@locale-tools/languages": "^0.1.0"
+  },
+  "gitHead": "5b8a2039686685e85bf5c9fa726c2c4a55d66626"
 }

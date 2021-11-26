@@ -1,4 +1,4 @@
-import { IETF } from "@iso-locale-tools/languages";
+import { IETF } from "@locale-tools/languages";
 
 /**
  * getDateFormatPatternForLocale - gets a date format pattern (e.g. 'dd-MM-yyyy') for a given locale

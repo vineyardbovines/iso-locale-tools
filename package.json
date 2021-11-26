@@ -1,10 +1,10 @@
 {
-  "name": "iso-locale-tools",
+  "name": "locale-tools",
   "version": "0.1.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/gretzky/iso-locale-tools.git"
+    "url": "https://github.com/gretzky/locale-tools.git"
   },
   "author": "Sara Pope <sarafpope@gmail.com>",
   "license": "MIT",

@@ -1,6 +1,6 @@
-import { ISO639_3, Language } from "@iso-locale-tools/languages";
-import { Currency, ISO4217 } from "@iso-locale-tools/currency";
-import { Locale } from "@iso-locale-tools/localization";
+import { ISO639_3, Language } from "@locale-tools/languages";
+import { Currency, ISO4217 } from "@locale-tools/currency";
+import { Locale } from "@locale-tools/localization";
 import { ISO3166_1_Alpha2, ISO3166_1_Alpha3 } from "./iso-3166-1";
 import { NameSchema } from "./nameSchema";
 import { IOC } from "./ioc";

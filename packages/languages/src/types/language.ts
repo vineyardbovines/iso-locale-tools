@@ -1,4 +1,4 @@
-// import { ISO3166_1_Alpha3 } from "@iso-locale-tools/countries";
+// import { ISO3166_1_Alpha3 } from "@locale-tools/countries";
 import { NameSchema } from "./nameSchema";
 import { ISO639_3 } from "./iso-639-3";
 import { BCP47 } from "./bcp47";

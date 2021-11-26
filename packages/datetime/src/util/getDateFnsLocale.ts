@@ -86,7 +86,7 @@ import {
   zhCN,
   zhTW
 } from "date-fns/locale";
-import { IETF } from "@iso-locale-tools/languages";
+import { IETF } from "@locale-tools/languages";
 import { DateFnsLocale } from "../types/dateFnsLocale";
 
 const dateFnsLocales: { [key in DateFnsLocale]: Locale } = {

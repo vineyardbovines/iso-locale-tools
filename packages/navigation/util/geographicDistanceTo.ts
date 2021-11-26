@@ -1,4 +1,4 @@
-import { DistanceUnit } from '@iso-locale-tools/localization'
+import { DistanceUnit } from '@locale-tools/localization'
 import { Coordinates } from "../types/coordinates";
 import { toRadians } from "./math";
 import { convertDistance } from './convertDistance'
