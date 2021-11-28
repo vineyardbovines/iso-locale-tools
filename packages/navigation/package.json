@@ -1,6 +1,6 @@
 {
   "name": "@locale-tools/navigation",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Navigational tools",
   "main": "dist/index.js",
   "module": "dist/navigation.esm.js",
