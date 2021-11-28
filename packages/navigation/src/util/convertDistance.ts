@@ -4,7 +4,7 @@ export function convertDistance(
   distance: number,
   fromUnit: DistanceUnit
 ): number {
-  const conversionPoint = fromUnit === "mile" ? 1.609344 : 0.6213712;
+  const conversionPoint = fromUnit === "mile" ? 0.6213712 : 1.609344
 
   return distance * conversionPoint;
 }
