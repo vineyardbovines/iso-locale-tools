@@ -1,7 +1,8 @@
-import * as countries from './data/countries.json'
-import * as countriesExpanded from './data/countries-expanded.json'
+import * as countries from "./data/countries.json";
+import * as countriesExpanded from "./data/countries-expanded.json";
 
-export { countriesExpanded }
+export { countries };
+export { countriesExpanded };
 export * from "./types/country";
 export * from "./types/countryKeys";
 export * from "./types/geography";

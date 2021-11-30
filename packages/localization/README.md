@@ -36,35 +36,35 @@ enum DistanceUnits {
   KM = "kilometer",
   MI = "mile",
 }
-type DistanceUnit = `${DistanceUnits}` | DistanceUnits
+type DistanceUnit = `${DistanceUnits}` | DistanceUnits;
 
 // temp unit -- both strings and enum valid
 enum TemperatureUnits {
   C = "celsius",
-  F = "fahrenheit"
+  F = "fahrenheit",
 }
-type TemperatureUnit = `${TemperatureUnits}` | TemperatureUnits
+type TemperatureUnit = `${TemperatureUnits}` | TemperatureUnits;
 
 // driving side -- both strings and enum valid
 enum DrivingSides {
   LEFT = "left",
-  RIGHT = "right"
+  RIGHT = "right",
 }
-type DrivingSide = `${DrivingSides}` | DrivingSides
+type DrivingSide = `${DrivingSides}` | DrivingSides;
 
 // measurement system -- both strings and enum valid
 enum MeasurementSystems {
   METRIC = "metric",
-  IMPERIAL = "imperial"
+  IMPERIAL = "imperial",
 }
-type MeasurementSystem = `${MeasurementSystems}` | MeasurementSystems
+type MeasurementSystem = `${MeasurementSystems}` | MeasurementSystems;
 
 // supported locales
 export type SupportedLocale = {
-  code: string
-  name: string
-  translationFile: JsonObject
-}
+  code: string;
+  name: string;
+  translationFile: JsonObject;
+};
 ```
 
 ### Methods
@@ -73,14 +73,14 @@ export type SupportedLocale = {
 
 Builds an instance of [i18next](https://www.i18next.com) to use in an application for translations.
 
-| Parameters | Type | Description | Default |
-| -- |
-| supportedLanguages | `SupportedLocale[]` | An array of supported languages | **Required** |
-| namespaces | `string[]`| An array of namespace keys in your translation file | **Required** |
-| defaultNamespace | `string` | A default namespace key | `common` |
-| fallbackLanguage | `string` | A fallback IETF language code | `en-US` |
-| languageStorageKey | `string` | Key for storing user's chosen language (localStorage for web, AsyncStorage for React Native) | `language` |
-| errorCallback | `void` | Function to handle any errors | `undefined` |
+| Parameters         | Type                | Description                                                                                  | Default      |
+| ------------------ | ------------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| supportedLanguages | `SupportedLocale[]` | An array of supported languages                                                              | **Required** |
+| namespaces         | `string[]`          | An array of namespace keys in your translation file                                          | **Required** |
+| defaultNamespace   | `string`            | A default namespace key                                                                      | `common`     |
+| fallbackLanguage   | `string`            | A fallback IETF language code                                                                | `en-US`      |
+| languageStorageKey | `string`            | Key for storing user's chosen language (localStorage for web, AsyncStorage for React Native) | `language`   |
+| errorCallback      | `void`              | Function to handle any errors                                                                | `undefined`  |
 
 To use, you will need to install `i18next` and `react-i18next` into your application. You'll then need to do some configuration:
 
@@ -95,14 +95,14 @@ const supportedLanguages = [
   {
     code: IETF.en_US,
     name: "English (US)",
-    translationFile: en
-  }
-]
+    translationFile: en,
+  },
+];
 
 export const i18n = buildI18n({
   supportedLanguages,
   namespaces: ["common", "validation", "a11y"],
-})
+});
 ```
 
 Ensure that you have JSON translation files stored somewhere in your app for your i18n instance to reference. This file should be keyed with the namespaces you specify.
