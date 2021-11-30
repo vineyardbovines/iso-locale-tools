@@ -1,6 +1,7 @@
 import i18next, { BackendModule, LanguageDetectorAsyncModule, ReadCallback, TFunction } from "i18next";
 import { initReactI18next } from "react-i18next";
 import { getDateFnsLocale, getDateFormatPatternForLocale, DateFnsLocale } from "@locale-tools/datetime";
+import { IETF } from "@locale-tools/languages";
 import * as Localization from 'expo-localization'
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { format as dateTimeFormat } from 'date-fns-tz'
@@ -11,8 +12,9 @@ function buildLocales(locales: SupportedLocale[], fallbackLocale?: DateFnsLocale
   const obj = {}
 
   locales.forEach(locale => {
-    const dateFnsLocale = getDateFnsLocale(locale.code, fallbackLocale)
+    const dateFnsLocale = getDateFnsLocale(locale.code as IETF, fallbackLocale)
 
+    /// @ts-ignore
     return obj[locale.code] = {
       name: locale.name,
       translationLoader: (): JsonObject => locale.translationFile,
