@@ -1,6 +1,6 @@
 {
   "name": "@locale-tools/countries",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Countries of the world and relational data",
   "main": "dist/index.js",
   "module": "dist/countries.esm.js",
@@ -42,7 +42,7 @@
   "devDependencies": {
     "@locale-tools/currency": "^0.1.0",
     "@locale-tools/languages": "^0.1.0",
-    "@locale-tools/localization": "^0.2.4",
+    "@locale-tools/localization": "^0.2.5",
     "type-fest": "^2.5.1"
   },
   "publishConfig": {
