@@ -1,6 +1,6 @@
 {
   "name": "@locale-tools/localization",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "description": "Localization and internationalization tools",
   "main": "dist/index.js",
   "module": "dist/localization.esm.js",
