@@ -12,7 +12,7 @@ function buildLocales(locales: SupportedLocale[], fallbackLocale?: DateFnsLocale
   const obj = {}
 
   locales.forEach(locale => {
-    const dateFnsLocale = getDateFnsLocale(locale.code as IETF, fallbackLocale)
+    const dateFnsLocale = getDateFnsLocale(locale.code as IETF, { fallbackLocale: fallbackLocale ?? "en-US" })
 
     /// @ts-ignore
     return obj[locale.code] = {
