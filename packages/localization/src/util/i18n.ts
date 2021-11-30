@@ -18,7 +18,7 @@ function buildLocales(locales: SupportedLocale[], fallbackLocale?: DateFnsLocale
     return obj[locale.code] = {
       name: locale.name,
       translationLoader: (): JsonObject => locale.translationFile,
-      localeLoader: (): Promise<unknown> => dateFnsLocale
+      localeLoader: dateFnsLocale
     }
   })
 
@@ -135,10 +135,10 @@ export function buildI18n({ supportedLanguages, namespaces, defaultNamespace, fa
 
           const supportedLang = lang ? supportedLocales[lang] ?? config.fallback : config.fallback
 
-          const mask: string = getDateFormatPatternForLocale(supportedLang)
+          const mask: string = getDateFormatPatternForLocale(supportedLang as IETF)
 
           if (type === "date") {
-            return dateTimeFormat(value, mask, { timeZone: Localization.timezone, locale: supportedLang })
+            return dateTimeFormat(value, mask, { timeZone: Localization.timezone, locale: supportedLang as Locale })
           }
 
           return ""
