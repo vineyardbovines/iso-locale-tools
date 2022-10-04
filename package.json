@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/gretzky/locale-tools.git"
+    "url": "https://github.com/gretzky/iso-locale-tools.git"
   },
   "author": "Sara Pope <sarafpope@gmail.com>",
   "license": "MIT",

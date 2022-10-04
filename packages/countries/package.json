@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gretzky/locale-tools.git",
+    "url": "git+https://github.com/gretzky/iso-locale-tools.git",
     "directory": "packages/countries"
   },
   "keywords": [
